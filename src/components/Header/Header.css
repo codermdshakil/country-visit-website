@@ -1,0 +1,55 @@
+
+.welcome-title{
+    text-align: center;
+    padding: 20px 5px;
+}
+.navber{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-right: 5%;
+}
+.navber a{
+    cursor: pointer;
+    text-decoration: none;
+    padding: 5px 10px;
+    color: #fff;
+    font-weight: 400;
+    border: 1px solid rgb(65, 52, 146);
+    background-color: rgb(65, 52, 146);
+    border-radius: 5px;
+    margin: 5px 10px;
+    transition: .3s ease-in;
+}
+.navber a:nth-child(4){
+    margin-right: 0px;
+}
+.navber a:hover{
+    background-color: #fff;
+    color: rgb(65, 52, 146);
+}
+
+/* media quires for small and large device  */
+
+/* medium screen  */
+@media screen and (max-width:1024px) {
+    .navber a{
+        font-size: 17px;
+        margin: 5px 10px;
+    }
+    .navber a:nth-child(4){
+    margin-right: 0px;
+}
+
+}
+/* Smalll screen  */
+@media screen and (max-width:576px) {
+    .navber a{
+        font-size: 14px;
+        margin: 5px;
+    }
+    .navber a:nth-child(4){
+        margin-right: 0px;
+    }
+
+}

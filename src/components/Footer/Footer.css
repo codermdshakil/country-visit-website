@@ -1,0 +1,13 @@
+
+.footer-title{
+    text-align: center;
+    padding: 20px;
+}
+
+.developer{
+    cursor: pointer;
+    color: rgb(65, 52, 146);
+}
+.developer a{
+    text-decoration:none;
+}
